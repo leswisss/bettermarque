@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { StaticImageData } from "next/image";
 import Image from "next/image";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { useInView } from "react-intersection-observer";
 import { ScrollTrigger } from "gsap/all";
 import Cursor from "../ReUsables/Cursor";
 import styles from "../../styles/HomePage/videoplayer.module.scss";
@@ -19,6 +20,21 @@ const VideoPlayer = ({ src, fallbackSrc }: VideoPlayerProps) => {
   const [isPlaying, setIsPlaying] = useState(true);
   const [isLoaded, setIsLoaded] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+
+  const { ref: sectionRef, inView: inView } = useInView({
+    threshold: 0.4,
+    triggerOnce: true,
+  });
+
+  // Play or pause video based on inView status
+  useEffect(() => {
+    if (videoRef.current) {
+      if (inView) {
+        videoRef.current.play();
+        setIsPlaying(true);
+      }
+    }
+  }, [inView]);
 
   // Handle play/pause
   const togglePlay = () => {
@@ -58,11 +74,13 @@ const VideoPlayer = ({ src, fallbackSrc }: VideoPlayerProps) => {
   const cursorText = isPlaying ? "Pause" : "Play";
   const pauseplayRef = useRef(null);
 
-
   return (
     <>
       <section className={`section ${styles.video__section}`}>
-        <div className={`container ${styles.video__container}`}>
+        <div
+          className={`container ${styles.video__container}`}
+          ref={sectionRef}
+        >
           <div className={styles.videoContainer} ref={containerRef}>
             {!isLoaded && (
               <div className={styles.fallback}>
@@ -79,7 +97,6 @@ const VideoPlayer = ({ src, fallbackSrc }: VideoPlayerProps) => {
               ref={videoRef}
               className={`${styles.video} ${isLoaded ? styles.show : ""}`}
               src={src}
-              autoPlay
               loop
               muted
               onLoadedData={handleLoadedData}

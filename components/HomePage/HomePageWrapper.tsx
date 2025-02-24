@@ -15,7 +15,7 @@ import FAQSection from "../ReUsables/FAQSection";
 import Services from "../ReUsables/Services";
 import { ContactThreeeInfo } from "@/utils";
 import Preloader from "../Navigation/Preloader";
-import FallbackImage from "../../public/images/brinovo/brinovo17.jpg";
+import FallbackImage from "../../public/images/homevideo.jpg";
 import Lenis from "lenis";
 import PaddingTop from "../ReUsables/PaddingTop";
 
