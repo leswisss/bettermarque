@@ -26,7 +26,7 @@ const Footer = () => {
       if (typeof window !== "undefined" && window.innerWidth < 1024) {
         setTransform(0);
       } else {
-        setTransform(-300);
+        setTransform(-100);
       }
     };
 
@@ -39,7 +39,7 @@ const Footer = () => {
     };
   }, []);
 
-  const y = useTransform(scrollYProgress, [0, 1], [transform, 0]);
+  const y = useTransform(scrollYProgress, [0, 1], [-300, 0]);
 
   return (
     <section className={styles.footer__wrapper} ref={footerWrapper}>

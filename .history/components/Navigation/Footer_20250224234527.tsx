@@ -39,7 +39,7 @@ const Footer = () => {
     };
   }, []);
 
-  const y = useTransform(scrollYProgress, [0, 1], [transform, 0]);
+  const y = useTransform(scrollYProgress, [0, 1], [-300, 0]);
 
   return (
     <section className={styles.footer__wrapper} ref={footerWrapper}>

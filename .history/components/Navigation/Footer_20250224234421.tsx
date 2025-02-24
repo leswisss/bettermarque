@@ -23,10 +23,12 @@ const Footer = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (typeof window !== "undefined" && window.innerWidth < 1024) {
-        setTransform(0);
+      if (typeof window !== "undefined" && window.innerWidth < 540) {
+        setTransform(-35);
+      } else if (typeof window !== "undefined" && window.innerWidth < 750) {
+        setTransform(-55);
       } else {
-        setTransform(-300);
+        setTransform(-100);
       }
     };
 
@@ -39,7 +41,7 @@ const Footer = () => {
     };
   }, []);
 
-  const y = useTransform(scrollYProgress, [0, 1], [transform, 0]);
+  const y = useTransform(scrollYProgress, [0, 1], [-300, 0]);
 
   return (
     <section className={styles.footer__wrapper} ref={footerWrapper}>

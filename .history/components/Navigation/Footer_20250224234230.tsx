@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef } from "react";
 import Image from "next/image";
 import IMAGE from "../../public/images/wordmark_1.png";
 import IMAGE2 from "../../public/images/brandmark_1.png";
@@ -18,28 +18,7 @@ const Footer = () => {
     offset: ["start end", "end end"],
   });
 
-  //Handle Resizing Y value
-  const [transform, setTransform] = useState(-300);
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (typeof window !== "undefined" && window.innerWidth < 1024) {
-        setTransform(0);
-      } else {
-        setTransform(-300);
-      }
-    };
-
-    handleResize();
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  const y = useTransform(scrollYProgress, [0, 1], [transform, 0]);
+  const y = useTransform(scrollYProgress, [0, 1], [-300, 0]);
 
   return (
     <section className={styles.footer__wrapper} ref={footerWrapper}>
