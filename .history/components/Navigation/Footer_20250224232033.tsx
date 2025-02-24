@@ -18,7 +18,7 @@ const Footer = () => {
     offset: ["start end", "end end"],
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], [-300, 70]);
+  const y = useTransform(scrollYProgress, [0, 1], [-300, 50]);
 
   return (
     <section className={styles.footer__wrapper} ref={footerWrapper}>
