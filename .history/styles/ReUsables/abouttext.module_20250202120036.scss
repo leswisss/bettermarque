@@ -1,0 +1,29 @@
+.text__section{
+  width: 100%;
+  height: auto;
+}
+
+.text__container{
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.text__wrapper{
+  width: 100%;
+  display: flex;
+  row-gap: 0rem;
+  column-gap: 0.6rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.word__wrapper{
+  overflow: hidden;
+  margin-bottom: -0.75rem;
+
+  span{
+    font-size: var(--h1-font-size);
+    position: relative;
+  }
+}

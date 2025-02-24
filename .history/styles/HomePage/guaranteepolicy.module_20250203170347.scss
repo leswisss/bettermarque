@@ -1,0 +1,18 @@
+.policy__section{
+  width: 100%;
+  height: auto;
+}
+
+.__container{
+  height: auto;
+}
+
+.__wrapper{
+  width: 100%;
+  height: auto;
+  padding-top: var(--wrapper-padding);
+  border-top: 1px solid var(--text-color-light);
+  display: flex;
+  flex-direction: column;
+  gap: var(--wrapper-gap);
+}

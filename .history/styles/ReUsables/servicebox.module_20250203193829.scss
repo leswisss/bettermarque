@@ -1,0 +1,29 @@
+.service__box{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sb__top{
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.sbt__left{
+  width: 40%;
+}
+
+.overflow{
+  position: relative;
+  overflow: ;
+}
+
+.sbt__right{
+  width: 60%;
+}

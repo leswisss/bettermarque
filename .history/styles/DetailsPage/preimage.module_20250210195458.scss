@@ -1,0 +1,23 @@
+.preimage__section{
+  width: 100%;
+  height: auto;
+}
+
+.preimage__wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.preimage__box{
+  width: 100%;
+  position: relative;
+
+  img{
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  
+}

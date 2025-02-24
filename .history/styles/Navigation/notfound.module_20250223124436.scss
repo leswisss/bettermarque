@@ -1,0 +1,28 @@
+.notfound__section {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+.notfound__container {
+  position: relative;
+  height: 100%;
+}
+
+.fof__big {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  span {
+    font-size: 50vh;
+    color: var(--orange);
+    line-height: 1;
+    font-family: var(--semibold-font);
+    background-image: url(https://www.freepik.com/free-photo/3d-rendering-broken-glass-texture_26324989.htm#fromView=search&page=1&position=38&uuid=2d5a85a0-b5db-4d79-b25b-cdfd15bbd9e2&query=broken+glass);
+    background-size: cover;
+  }
+}

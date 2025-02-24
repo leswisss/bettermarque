@@ -1,0 +1,255 @@
+.sidebar {
+  width: 100vw;
+  height: 0dvh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.sidebar__wrapper {
+  width: 100vw;
+  height: 100dvh;
+  min-height: 100dvh;
+  background-color: var(--orange);
+  color: var(--body-color);
+}
+
+.sidebar__container {
+  height: 100%;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebartop__wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.sidebar__header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sideh__left {
+  position: relative;
+  display: block;
+  width: 200px;
+  aspect-ratio: 600/110.0291;
+  overflow: hidden;
+
+  .si__wrapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    img {
+      object-fit: cover;
+    }
+  }
+}
+
+.sideh__right {
+  width: max-content;
+  height: auto;
+  overflow: hidden;
+  cursor: pointer;
+
+  .sidehr__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    svg {
+      font-size: calc(var(--normal-font-size) + 0.1rem);
+    }
+  }
+}
+
+.sidebar__body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sideb__top {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .sword__wrapper {
+    width: max-content;
+    height: auto;
+    overflow: hidden;
+
+    .slink {
+      display: block;
+      font-size: calc(var(--h1-font-size) + 2rem);
+      color: rgba(255, 255,255, 0.5);
+
+      &.white{
+        color: white;
+      }
+
+      &::after {
+        content: "";
+        width: 100%;
+        height: 0.15rem;
+        display: block;
+        margin-top: -10px;
+        background-color: white;
+        position: relative;
+        transform: scaleX(0%);
+        transform-origin: right;
+        transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+      }
+
+      &:hover {
+        &::after {
+          transform: scaleX(100%);
+          transform-origin: left;
+        }
+      }
+    }
+  }
+}
+
+.sideb__bottom {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+
+  .circle {
+    display: block;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: 1px;
+  }
+
+  .bclock {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}
+
+.side__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+
+  .sf__top {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+
+    .fword__wrapper {
+      width: max-content;
+      height: auto;
+      overflow: hidden;
+
+      .flink {
+        display: block;
+        color: white;
+
+        &::after {
+          content: "";
+          width: 100%;
+          height: 1px;
+          display: block;
+          margin-top: 3px;
+          background-color: white;
+          position: relative;
+          transform: scaleX(0%);
+          transform-origin: right;
+          transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+        }
+
+        &:hover {
+          &::after {
+            transform: scaleX(100%);
+            transform-origin: left;
+          }
+        }
+      }
+    }
+  }
+
+  .sf__bottom{
+    width: max-content;
+    display: block;
+    overflow: hidden;
+  }
+}
+
+
+//Responsive Design
+
+@media screen and (max-width: 700px) {
+  .sidebartop__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .side__footer {
+    .sf__top{
+      width: 100%;
+      justify-content: space-between;
+      gap: 0;
+    }
+
+    .sf__bottom{
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .sideh__left {
+    width: 170px;
+  }
+
+  .sideb__top {
+    gap: 0.5rem;
+  
+    .sword__wrapper {
+      .slink {
+        font-size: calc(var(--h1-font-size) + 1.5rem);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .side__footer {
+    .sf__top {  
+      .fword__wrapper {
+        .flink {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .side__footer {
+    .sf__top {  
+      .fword__wrapper {
+        .flink {
+          font-size: 0.95rem;
+        }
+      }
+    }
+  }
+}

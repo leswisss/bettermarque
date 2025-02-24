@@ -1,0 +1,37 @@
+import PROJECT1 from "../public/svg/testproject.svg"
+import PROJECT11 from "../public/images/homevideo.jpg"
+
+
+export const ProjectDetails = [
+  {
+    id: 1,
+    name: "Brinovo Urbano",
+    slug: "brinovo-urbano",
+    year: 2024,
+    slogan: "Redefining Urban Landscape Architecture",
+    services: "Strategy - Visual Identity - Website",
+    coverImage: {
+      image: PROJECT11,
+      alt: "Project Brinovo Urbano"
+    },
+    detailsHeroContent: {
+      projectinfo: {
+        name: "Brinovo Urbano",
+        image: PROJECT1,
+        aspectratio: "102.6/50",
+      },
+      herotext:
+        "Let’s get the conversation started. Send us a message below or reach out to us via email.",
+      linkbutton: {
+        text: "Read case study",
+        color: "black",
+      }
+    },
+    videoLink: "/videos/homevideo.mp4",
+    fallbackImage: PROJECT11,
+    projectBrief: {
+      mainText: "Brinovo Urbano specializes in creating sustainable urban landscapes that redefine modern city living.",
+      
+    }
+  }
+]

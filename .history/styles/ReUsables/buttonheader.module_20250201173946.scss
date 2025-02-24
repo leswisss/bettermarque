@@ -1,0 +1,13 @@
+.bhcontent{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.orange__button{
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-radius: 50%;
+  background-color: var(--orange);
+}

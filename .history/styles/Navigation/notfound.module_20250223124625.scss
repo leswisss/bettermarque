@@ -1,0 +1,30 @@
+.notfound__section {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+.notfound__container {
+  position: relative;
+  height: 100%;
+}
+
+.fof__big {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  span {
+    font-size: 50vh;
+    color: var(--orange);
+    line-height: 1;
+    font-family: var(--semibold-font);
+    background-image: url(../../public/images/ferrocore.jpg);
+    background-size: cover;
+    background-clip: text;
+    -web
+  }
+}

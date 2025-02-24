@@ -1,0 +1,147 @@
+.footer__wrapper{
+  width: 100%;
+  height: max-content;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer__section{
+  width: 100%;
+  background-color: var(--orange);
+  position: relative;
+  height: auto;
+  padding: 8rem 0 2rem !important;
+  color: white;
+}
+
+.footer__top{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+.ft__left{
+  display: flex;
+  flex-direction: column;
+  gap: 0rem
+}
+
+.ready{
+  font-size: var(--h2-font-size);
+}
+
+.ft__right{
+  width: 60%;
+  position: relative;
+
+  .wordmark{
+    width: 100%;
+    aspect-ratio: 600/110.0291;
+    position: relative;
+
+    img{
+      object-fit: cover;
+    }
+  }
+}
+
+.footer__bottom{
+  width: 100%;
+  height: auto;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  align-items: flex-start;
+}
+
+.fb__top{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.fbt__left{
+  position: relative;
+  width: max-content;
+  height: auto;
+
+  .brandmark{
+    width: 150px;
+    aspect-ratio: 350/394.6375;
+    position: relative;
+
+    img{
+      object-fit: cover;
+    }
+  }
+}
+
+.fbt__right{
+  width: 60%;
+  height: auto;
+  display: flex;
+  gap: 7rem;
+  align-items: flex-start;
+}
+
+.fb__bottom{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--small-font-size);
+}
+
+.fbb__left{
+  width: max-content;
+}
+
+.fbb__right{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+//RESPONSIVE DESIGN
+@media screen and (max-width: 780px) {
+  .footer__section{
+    padding: 6rem 0 2rem !important;
+  }
+
+  .footer__top{
+    flex-direction: ;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+  }
+  
+  .ft__left{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem
+  }
+  
+  .ready{
+    font-size: var(--h2-font-size);
+  }
+  
+  .ft__right{
+    width: 60%;
+    position: relative;
+  
+    .wordmark{
+      width: 100%;
+      aspect-ratio: 600/110.0291;
+      position: relative;
+  
+      img{
+        object-fit: cover;
+      }
+    }
+  }
+}

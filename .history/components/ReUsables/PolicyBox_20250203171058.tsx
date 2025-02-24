@@ -1,0 +1,17 @@
+import React from 'react'
+import styles from "../../styles/ReUsables/policybox.module.scss"
+
+const PolicyBox = () => {
+  return (
+    <div className={styles.box__wrapper}>
+      <div className={styles.bw__top}>
+        <span>01</span>
+      </div>
+      <div className={styles.bw__bottom}>
+        <h1></h1>
+      </div>
+    </div>
+  )
+}
+
+export default PolicyBox

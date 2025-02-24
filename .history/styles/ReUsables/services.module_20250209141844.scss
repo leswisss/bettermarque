@@ -1,0 +1,68 @@
+.services__section{
+  width: 100%;
+  height: auto;
+  padding: 3rem 0 0 !important; //because these services box need no gap between them
+}
+
+.services__container{
+  height: auto;
+}
+
+.services__wrapper{
+  width: 100%;
+  height: auto;
+  padding-top: var(--wrapper-padding);
+  border-top: 1px solid rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  gap: var(--wrapper-gap);
+  align-items: flex-start;
+}
+
+.services__top{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.services__left{
+  width: max-content;
+  height: auto;
+}
+
+.services__right{
+  width: 60%;
+  height: auto;
+}
+
+.services__bottom{
+  width: 100%;
+}
+
+.service__wrapper{
+  width: 100%;
+  position: relative;
+  background-color: white;
+}
+
+.service__holder{
+  width: 100%;
+}
+
+
+//Responsive Design
+@media screen and (max-width: 840px) {
+  .services__top{
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: calc(var(--wrapper-gap) - 3.5rem);
+    align-items: flex-start;
+  }
+  
+  
+  .services__right{
+    width: 100%;
+  }
+}

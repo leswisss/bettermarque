@@ -1,0 +1,35 @@
+.intouch__section{
+  width: 100%;
+  height: auto;
+}
+
+.intouch__container{
+  height: auto;
+}
+
+.intouch__wrapper{
+  width: 100%;
+  height: auto;
+  padding-top: var(--wrapper-padding);
+  border-top: 1px solid var(--text-color-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.intouch__left{
+  width: 40%;
+  height: auto;
+}
+
+.intouch__right{
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--wrapper-gap)
+}
+
+.inbutton{
+  position: relative;
+}

@@ -1,0 +1,22 @@
+.sliderContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  .slider {
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    gap: 2rem;
+
+    .image__wrapper {
+      position: relative;
+      
+
+      &:nth-of-type(2) {
+        position: absolute;
+        // left: 1937px;
+      }
+    }
+  }
+}

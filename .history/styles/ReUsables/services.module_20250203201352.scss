@@ -1,0 +1,38 @@
+.services__section{
+  width: 100%;
+  height: auto;
+  padding: 2rem 0 0 !important;
+}
+
+.services__container{
+  height: auto;
+}
+
+.services__wrapper{
+  width: 100%;
+  height: auto;
+  padding-top: var(--wrapper-padding);
+  border-top: 1px solid var(--text-color-light);
+  display: flex;
+  flex-direction: column;
+  gap: var(--wrapper-gap);
+  align-items: flex-start;
+}
+
+.services__top{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.services__left{
+  width: 40%;
+  height: auto;
+}
+
+.services__right{
+  width: 60%;
+  height: auto;
+}

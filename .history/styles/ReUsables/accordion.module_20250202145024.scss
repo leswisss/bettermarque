@@ -1,0 +1,111 @@
+.accordion {
+  width: 100%;
+  overflow: hidden;
+}
+
+.accordionItem {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid var(--text-color-light);
+
+  &:last-child {
+    border-bottom: 1px solid var(--text-color-light);
+  }
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.3rem 0;
+  cursor: pointer;
+}
+
+.header__left{
+  width: 12%;
+  height: auto;
+}
+
+.header__right{
+  width: 88%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Icon container styling */
+.icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease-in-out;
+
+  /* The two spans form the plus sign */
+  span {
+    position: absolute;
+    background-color: #333;
+    transition: all 0.3s ease;
+  }
+}
+
+/* Horizontal bar styling */
+.horizontal {
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  transform: translateY(-50%);
+}
+
+/* Vertical bar styling */
+.vertical {
+  left: 50%;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  transform: translateX(-50%);
+}
+
+/* When the item is active, rotate the icon and fade out the vertical span */
+.active {
+  transform: rotate(90deg);
+}
+
+.active .vertical {
+  opacity: 0;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease-in-out;
+
+  &.active{
+    max-height: 500px;
+  }
+}
+
+.content__left{
+  width: 12%;
+  height: auto;
+}
+
+.content__right{
+  width: 88%;
+  height: auto;
+
+  p{
+    color: var(--text-color-light);
+    width: 80%;
+    line-height: 1.35;
+    margin: 0rem 0 2rem;
+  }
+}

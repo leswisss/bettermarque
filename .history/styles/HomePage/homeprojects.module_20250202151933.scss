@@ -1,0 +1,18 @@
+.project__section{
+  width: 100%;
+  height: auto;
+}
+
+.project__container{
+  height: auto;
+}
+
+.project__wrapper{
+  width: 100%;
+  height: auto;
+  padding-top: var(--wrapper-padding);
+  border-top: 1px solid var(--text-color-light);
+  display: flex;
+  flex-direction: column;
+  gap: var(--wrapper-gap);
+}

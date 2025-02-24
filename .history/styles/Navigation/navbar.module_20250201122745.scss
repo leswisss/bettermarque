@@ -1,0 +1,73 @@
+.navigation{
+  width: 100%;
+  height: auto;
+  padding: 1.5rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  mix-blend-mode: difference;
+  color: white !important;
+}
+
+// .navigation__container{
+
+// }
+
+.navigation__wrapper{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nav__left{
+  width: 40%;
+  position: relative;
+}
+
+.nav__agency{
+    line-height: 1;
+}
+
+// .nav__image{
+
+// }
+
+.nav__right{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nav__rightl{
+  display: flex;
+  gap: 6rem;
+  align-items: flex-start;
+}
+
+.nav__menu{
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+
+  a{
+    color: white;
+  }
+}
+
+.nav__time{
+
+}
+
+.nav__rightr{
+  position: relative;
+  width: max-content;
+  height: max-content;
+
+  .nav__contact{
+    color: white;
+  }
+}

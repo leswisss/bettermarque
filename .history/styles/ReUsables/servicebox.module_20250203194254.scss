@@ -1,0 +1,41 @@
+.servicebox{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sb__top{
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--text-color-light);
+  border-bottom: 1px solid var(--text-color-light);
+}
+
+.sbt__left{
+  width: 40%;
+}
+
+.overflow{
+  position: relative;
+  overflow: hidden;
+
+  span{
+    font-size: calc(var(--biggest-font-size) - 2.5rem);
+    font-family: var(--medium-font);
+  }
+
+  h1{
+    font-size: calc(var(--biggest-font-size) - 2rem);
+    font-family: var(--medium-font);
+    font-weight: 100;
+  }
+}
+
+.sbt__right{
+  width: 60%;
+}

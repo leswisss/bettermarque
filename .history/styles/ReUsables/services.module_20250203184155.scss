@@ -1,0 +1,32 @@
+.ser__section{
+  width: 100%;
+  height: auto;
+  padding: 2rem 0 8rem !important;
+}
+
+.ser__container{
+  height: auto;
+}
+
+.ser__wrapper{
+  width: 100%;
+  height: auto;
+  padding-top: var(--wrapper-padding);
+  border-top: 1px solid var(--text-color-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ser__left{
+  width: 40%;
+  height: auto;
+}
+
+.ser__right{
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--wrapper-gap)
+}

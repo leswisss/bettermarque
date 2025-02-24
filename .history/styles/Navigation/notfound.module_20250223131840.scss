@@ -1,0 +1,56 @@
+.notfound__section {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+.notfound__container {
+  position: relative;
+  height: 100%;
+}
+
+.fof__big {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  .spanone {
+    font-size: 25vw;
+    line-height: 1;
+    font-family: var(--heavy-font);
+    background-image: url(../../public/images/broken.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .nf__text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: center;
+
+    h2{
+      font-family: var(--regular-font);
+      font-size: 5vw;
+      line-height: 1;
+    }
+
+    p{
+      color: var(--text-color-light);
+      width: 80vw;
+      text-align: center;
+    }
+
+    .button__back{
+      margin-top: ;
+    }
+  }
+
+}

@@ -1,0 +1,136 @@
+.servicebox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-bottom: 6rem;
+  position: relative;
+  background-color: white;
+}
+
+.sb__top {
+  width: 100%;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.sbt__left {
+  width: max-content;
+}
+
+.overflow {
+  position: relative;
+  overflow: hidden;
+
+  span {
+    font-size: calc(var(--biggest-font-size) - 2.3rem);
+    font-family: var(--medium-font);
+    display: block;
+    transform: translateY(100%);
+    transition: transform 0.7s ease;
+  }
+
+  h1 {
+    font-size: calc(var(--biggest-font-size) - 2.3rem);
+    font-family: var(--medium-font);
+    font-weight: 100;
+    text-transform: uppercase;
+    display: block;
+    transform: translateY(100%);
+    transition: transform 0.7s ease;
+  }
+}
+
+.sbt__right {
+  width: 60%;
+}
+
+.sb__bottom {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+.sbb__left {
+  width: 33%;
+  height: 100%;
+  position: relative;
+}
+
+.image__container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image__wrapper {
+  position: absolute;
+  width: 100%;
+  height: 120%;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.sbb__right {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.textbox {
+  position: relative;
+  margin-top: -0.7rem;
+}
+
+.sbb__bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.details__box {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+
+  span {
+    display: block;
+    padding: 0.7rem 1rem;
+    background-color: #e6e6e6;
+    border-radius: 0.5rem;
+  }
+}
+
+.details__cta {
+  width: 20%;
+}
+
+//Responsive Design 
+@media screen and (max-width: 1480px) {
+  .overflow {
+    span {
+      font-size: calc(var(--biggest-font-size) - 3rem);
+    }
+  
+    h1 {
+      font-size: calc(var(--biggest-font-size) - 3rem);
+    }
+  }
+}
+

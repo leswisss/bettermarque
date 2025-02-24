@@ -1,0 +1,60 @@
+"use client";
+
+import React, {useEffect, useState, useRef} from "react";
+import Navbar from '../Navigation/Navbar';
+import HeroSection from '../ReUsables/HeroSection';
+import FormSection from "./FormSection";
+import Preloader from "../Navigation/Preloader";
+import FAQSection from "../ReUsables/FAQSection";
+import Footer from "../Navigation/Footer";
+import ContactInfo from "./ContactInfo";
+import { ContactHeroContent } from "@/utils";
+import Lenis from "lenis";
+
+
+const ContactPageWrapper = () => {
+  const [lenis, setLenis] = useState<Lenis | null>(null);
+  const contactRef = useRef<HTMLDivElement | null>(null);
+
+  //Preloader stuff  
+  const [animationFinished, setAnimationFinished] = useState(false);
+
+  useEffect(() => {
+    const lenisInstance = new Lenis({
+      duration: 1.5,
+    });
+
+    function raf(time: number) {
+      lenisInstance.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
+    // Store the lenis instance in state
+    setLenis(lenisInstance);
+  }, []);
+
+  return (
+    <>
+     <Preloader setAnimation={setAnimationFinished} />
+
+     <div
+        style={{
+          height: !animationFinished ? "100vh" : "",
+          overflow: !animationFinished ? "hidden" : "",
+        }}
+      >
+
+      <Navbar animationFinished={animationFinished} />
+      <HeroSection content={ContactHeroContent} lenis={lenis} reference={contactRef} animationFinished={animationFinished}/>
+      <FormSection ref={contactRef}/>
+      <ContactInfo/>
+      <FAQSection/>
+      <Footer/>
+      </div>
+    </>
+  )
+}
+
+export default ContactPageWrapper

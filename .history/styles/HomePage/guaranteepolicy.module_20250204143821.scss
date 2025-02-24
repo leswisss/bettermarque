@@ -1,0 +1,39 @@
+.policy__section{
+  width: 100%;
+  height: auto;
+}
+
+.policy__container{
+  height: auto;
+}
+
+.policy__wrapper{
+  width: 100%;
+  height: auto;
+  padding-top: var(--wrapper-padding);
+  border-top: 1px solid rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.pw__left{
+  width: 40%;
+  height: auto;
+}
+
+.pw__right{
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--wrapper-gap);
+}
+
+.pwr__bottom{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 3rem;
+}

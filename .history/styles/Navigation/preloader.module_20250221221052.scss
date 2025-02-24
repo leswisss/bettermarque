@@ -1,0 +1,27 @@
+.preloader{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.preloader__left{
+  width: 50%;
+  height: 100vh;
+  background-color: black;
+}
+
+.preloader__right{
+  width: 50%;
+  height: 100vh;
+  background-color: black;
+}
+
+.slogan__wrapper{
+  position: abs;
+}

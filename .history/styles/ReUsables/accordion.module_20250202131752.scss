@@ -1,0 +1,55 @@
+.accordion {
+  width: 100%;
+  overflow: hidden;
+}
+
+.accordionItem {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid var(--text-color-light);
+
+  &:last-child {
+    border-bottom: 1px solid var(--text-color-light);
+  }
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.3rem;
+  cursor: pointer;
+}
+
+.header__left{
+  width: 30%;
+}
+
+
+.icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 1.5rem;
+  text-align: center;
+}
+
+.content {
+  padding: 0 1rem 1rem;
+  background-color: #fff;
+  animation: fadeIn 0.3s ease-in-out;
+
+  p {
+    margin: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

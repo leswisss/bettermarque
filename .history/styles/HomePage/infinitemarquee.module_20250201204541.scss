@@ -1,0 +1,24 @@
+.sliderContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden; // Prevents unwanted horizontal scroll
+
+  .slider {
+    position: relative;
+    display: flex;
+    // gap: 4rem; // Adjust this for spacing between images
+    // white-space: nowrap;
+    
+    // .image__wrapper {
+    //   position: relative;
+    //   width: 1200px; // Adjust as needed
+    //   aspect-ratio: 600/110.0291;
+
+    //   &:nth-of-type(2) {
+    //     position: absolute;
+    //     left: 1200px; // Adds spacing
+    //   }
+    // }
+  }
+}

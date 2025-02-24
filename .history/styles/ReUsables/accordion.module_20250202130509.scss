@@ -1,0 +1,66 @@
+// components/Accordion.module.scss
+
+.accordion {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.accordionItem {
+  border-bottom: 1px solid #ccc;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #f1f1f1;
+  }
+}
+
+.number {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 1.5rem;
+  text-align: center;
+}
+
+.content {
+  padding: 0 1rem 1rem;
+  background-color: #fff;
+  animation: fadeIn 0.3s ease-in-out;
+
+  p {
+    margin: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
