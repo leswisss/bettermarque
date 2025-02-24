@@ -159,7 +159,7 @@ export const ProjectsContent = [
         color: "black",
       },
     },
-    videoLink: "/videos/homevideo.mp4",
+    videoLink: "/videos/Brinovo.mp4",
     fallbackImage: PROJECT117,
     projectBrief: {
       mainText:
@@ -348,7 +348,7 @@ export const ProjectsContent = [
         color: "black",
       },
     },
-    videoLink: "/videos/homevideo.mp4",
+    videoLink: "/videos/Ferrocore.mp4",
     fallbackImage: PROJECT223,
     projectBrief: {
       mainText:
@@ -570,7 +570,7 @@ export const ProjectsContent = [
         color: "black",
       },
     },
-    videoLink: "/videos/homevideo.mp4",
+    videoLink: "/videos/VossWalker.mp4",
     fallbackImage: PROJECT320,
     projectBrief: {
       mainText:
