@@ -105,14 +105,14 @@ export const AccordionData = [
   {
     id: 4,
     number: "04",
-    title: "Build a culture that embodies your brand",
+    title: "Build a culture that embodies your Brand",
     content:
       "People stand behind what they help create. We work with you to define the pillars of your brand’s culture—its values, vision, and behaviors—empowering your team to become ambassadors for your mission both internally and externally.",
   },
   {
     id: 5,
     number: "05",
-    title: "Design a brand that reflects uour Unique identity",
+    title: "Design a Brand That Reflects Your Unique Identity",
     content: "By combining your vision with a deep understanding of your industry, we craft brands that don’t just look good but feel authentic and purposeful. With every design, we aim to create a lasting impact—one that drives measurable results, attracts like-minded collaborators, and positions your brand as a leader in its field.",
   },
 ];
