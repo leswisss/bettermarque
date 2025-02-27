@@ -324,253 +324,6 @@ export const ProjectsContent = [
   {
     id: 2,
     projectBox: {
-      name: "DK Architecture & Design",
-      slug: "dkarchitecture-design",
-      year: 2024,
-      slogan: "Creating Spaces that Inspire",
-      services: "Brand Strategy - Visual Identity - Website",
-      coverImage: {
-        image: PROJECT401,
-        alt: "Project DK Architecture & Design",
-      },
-    },
-
-    detailsHeroContent: {
-      projectinfo: {
-        name: "DK Architecture & Design",
-        image: PROJECT4,
-        aspectratio: "113/139.63",
-      },
-      herotext:
-        "Modern design converges with custom elegance at DK Architecture and Design, transforming every project into a canvas of innovation, ambition, and refined style.",
-      linkbutton: {
-        text: "Read case study",
-        color: "black",
-      },
-    },
-    videoLink: "/videos/Dkad.mp4",
-    fallbackImage: PROJECT411,
-    projectBrief: {
-      mainText:
-        "DK Architecture and Design is an architectural firm based in Yaounde Cameroon, dedicated to shaping modern spaces with a refined, bespoke approach.",
-      briefText:
-        "Catering to high-end clients, government entities, and international projects, DKAD creates distinctive environments that reflect ambition, precision, and sophistication. With a philosophy rooted in collaboration, resilience, and integrity, the firm transforms visions into striking architectural realities.",
-      projectSpecs: [
-        {
-          heading: "Type",
-          text: "Branding",
-        },
-        {
-          heading: "Category",
-          text: "Architecture",
-        },
-        {
-          heading: "Services",
-          text: "Brand Strategy, Visual Identity, Website",
-        },
-      ],
-      liveLink: {
-        text: "Visit live site",
-        link: "https://www.dkadstudio.com"
-      }
-    },
-    preImages: [
-      {
-        image: PROJECT409,
-        aspectRatio: "4200/2800",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT401,
-        aspectRatio: "4200/2800",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT404,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-    ],
-    firstOtherDetail: {
-      headerButton: "Our Solution",
-      detailData: {
-        mainText:
-          "To craft a brand identity that embodies DKAD’s modern aesthetic, we focused on elegance in simplicity.",
-        secondaryText:
-          "A refined visual system, clean typography, and a balanced interplay of structure and space captured the firm’s precision and tailored creativity. Alongside this, we developed a sleek, intuitive website that seamlessly communicates their expertise, ensuring a cohesive and impactful digital presence.",
-        // link: "https://www.bettermarque.com"  // This is in case we have a project that has both brand identity and website development. This section will showcase the website link externally.
-      },
-    },
-    secondOtherDetail: {
-      headerButton: "Website Solution",
-      detailData: {
-        mainText:
-          "To enhance DKAD's digital presence, we developed a sleek, intuitive website that reflects their modern design philosophy and commitment to excellence. ",
-        secondaryText:
-          "he website features a clean layout, showcasing their projects and services with high-quality imagery and concise descriptions. Navigation is streamlined, allowing visitors to easily explore DKAD's portfolio, learn about their services, and contact the firm. The design emphasizes simplicity and elegance, aligning with DKAD's brand identity and providing an engaging user experience.",
-        link: "https://www.dkadstudio.com"  // This is in case we have a project that has both brand identity and website development. This section will showcase the website link externally.
-      },
-    },
-    preImages2: [
-      {
-        image: PROJECT402,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT403,
-        aspectRatio: "4200/2800",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT405,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT406,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT407,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT408,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT410,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT412,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT413,
-        aspectRatio: "4200/2800",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT414,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT415,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT416,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT417,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT418,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT419,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT420,
-        aspectRatio: "1/1",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT421,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT422,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT423,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT424,
-        aspectRatio: "4200/2800",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT425,
-        aspectRatio: "4200/2800",
-        alt: "Project DK Architecture & Design",
-      },
-      {
-        image: PROJECT411,
-        aspectRatio: "3000/2250",
-        alt: "Project DK Architecture & Design",
-      },
-    ],
-    preImages3: [
-      {
-        image: WEB401,
-        aspectRatio: "6100/4727",
-        alt: "Website DK Architecture & Design",
-      },
-      {
-        image: WEB402,
-        aspectRatio: "4113/4760",
-        alt: "Website DK Architecture & Design",
-      },
-      {
-        image: WEB403,
-        aspectRatio: "4000/3672",
-        alt: "Website DK Architecture & Design",
-      },
-      {
-        image: WEB404,
-        aspectRatio: "4000/3814",
-        alt: "Website DK Architecture & Design",
-      },
-      {
-        image: WEB405,
-        aspectRatio: "4000/3814",
-        alt: "Website DK Architecture & Design",
-      },
-      {
-        image: WEB406,
-        aspectRatio: "4000/4749",
-        alt: "Website DK Architecture & Design",
-      },
-
-      {
-        image: WEB407,
-        aspectRatio: "3903/3108",
-        alt: "Website DK Architecture & Design",
-      },
-
-      {
-        image: WEB408,
-        aspectRatio: "5010/3750",
-        alt: "Website DK Architecture & Design",
-      },
-    ],
-  },
-  {
-    id: 3,
-    projectBox: {
       name: "Ferrocore Construction",
       slug: "ferrocore-construction",
       year: 2024,
@@ -791,7 +544,7 @@ export const ProjectsContent = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     projectBox: {
       name: "VossWalker Estates",
       slug: "vosswalker-estates",
@@ -988,6 +741,253 @@ export const ProjectsContent = [
         aspectRatio: "2/1",
         alt: "Project Voss Walker Estates",
       },
+      {
+        id: 4,
+        projectBox: {
+          name: "DK Architecture & Design",
+          slug: "dkarchitecture-design",
+          year: 2024,
+          slogan: "Creating Spaces that Inspire",
+          services: "Brand Strategy - Visual Identity - Website",
+          coverImage: {
+            image: PROJECT401,
+            alt: "Project DK Architecture & Design",
+          },
+        },
+    
+        detailsHeroContent: {
+          projectinfo: {
+            name: "DK Architecture & Design",
+            image: PROJECT4,
+            aspectratio: "113/139.63",
+          },
+          herotext:
+            "Modern design converges with custom elegance at DK Architecture and Design, transforming every project into a canvas of innovation, ambition, and refined style.",
+          linkbutton: {
+            text: "Read case study",
+            color: "black",
+          },
+        },
+        videoLink: "/videos/Dkad.mp4",
+        fallbackImage: PROJECT411,
+        projectBrief: {
+          mainText:
+            "DK Architecture and Design is an architectural firm based in Yaounde Cameroon, dedicated to shaping modern spaces with a refined, bespoke approach.",
+          briefText:
+            "Catering to high-end clients, government entities, and international projects, DKAD creates distinctive environments that reflect ambition, precision, and sophistication. With a philosophy rooted in collaboration, resilience, and integrity, the firm transforms visions into striking architectural realities.",
+          projectSpecs: [
+            {
+              heading: "Type",
+              text: "Branding",
+            },
+            {
+              heading: "Category",
+              text: "Architecture",
+            },
+            {
+              heading: "Services",
+              text: "Brand Strategy, Visual Identity, Website",
+            },
+          ],
+          liveLink: {
+            text: "Visit live site",
+            link: "https://www.dkadstudio.com"
+          }
+        },
+        preImages: [
+          {
+            image: PROJECT409,
+            aspectRatio: "4200/2800",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT401,
+            aspectRatio: "4200/2800",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT404,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+        ],
+        firstOtherDetail: {
+          headerButton: "Our Solution",
+          detailData: {
+            mainText:
+              "To craft a brand identity that embodies DKAD’s modern aesthetic, we focused on elegance in simplicity.",
+            secondaryText:
+              "A refined visual system, clean typography, and a balanced interplay of structure and space captured the firm’s precision and tailored creativity. Alongside this, we developed a sleek, intuitive website that seamlessly communicates their expertise, ensuring a cohesive and impactful digital presence.",
+            // link: "https://www.bettermarque.com"  // This is in case we have a project that has both brand identity and website development. This section will showcase the website link externally.
+          },
+        },
+        secondOtherDetail: {
+          headerButton: "Website Solution",
+          detailData: {
+            mainText:
+              "To enhance DKAD's digital presence, we developed a sleek, intuitive website that reflects their modern design philosophy and commitment to excellence. ",
+            secondaryText:
+              "he website features a clean layout, showcasing their projects and services with high-quality imagery and concise descriptions. Navigation is streamlined, allowing visitors to easily explore DKAD's portfolio, learn about their services, and contact the firm. The design emphasizes simplicity and elegance, aligning with DKAD's brand identity and providing an engaging user experience.",
+            link: "https://www.dkadstudio.com"  // This is in case we have a project that has both brand identity and website development. This section will showcase the website link externally.
+          },
+        },
+        preImages2: [
+          {
+            image: PROJECT402,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT403,
+            aspectRatio: "4200/2800",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT405,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT406,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT407,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT408,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT410,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT412,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT413,
+            aspectRatio: "4200/2800",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT414,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT415,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT416,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT417,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT418,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT419,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT420,
+            aspectRatio: "1/1",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT421,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT422,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT423,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT424,
+            aspectRatio: "4200/2800",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT425,
+            aspectRatio: "4200/2800",
+            alt: "Project DK Architecture & Design",
+          },
+          {
+            image: PROJECT411,
+            aspectRatio: "3000/2250",
+            alt: "Project DK Architecture & Design",
+          },
+        ],
+        preImages3: [
+          {
+            image: WEB401,
+            aspectRatio: "6100/4727",
+            alt: "Website DK Architecture & Design",
+          },
+          {
+            image: WEB402,
+            aspectRatio: "4113/4760",
+            alt: "Website DK Architecture & Design",
+          },
+          {
+            image: WEB403,
+            aspectRatio: "4000/3672",
+            alt: "Website DK Architecture & Design",
+          },
+          {
+            image: WEB404,
+            aspectRatio: "4000/3814",
+            alt: "Website DK Architecture & Design",
+          },
+          {
+            image: WEB405,
+            aspectRatio: "4000/3814",
+            alt: "Website DK Architecture & Design",
+          },
+          {
+            image: WEB406,
+            aspectRatio: "4000/4749",
+            alt: "Website DK Architecture & Design",
+          },
+    
+          {
+            image: WEB407,
+            aspectRatio: "3903/3108",
+            alt: "Website DK Architecture & Design",
+          },
+    
+          {
+            image: WEB408,
+            aspectRatio: "5010/3750",
+            alt: "Website DK Architecture & Design",
+          },
+        ],
+      },
     ],
-  }
+  },
 ];

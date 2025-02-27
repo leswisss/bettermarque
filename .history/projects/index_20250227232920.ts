@@ -569,7 +569,7 @@ export const ProjectsContent = [
     ],
   },
   {
-    id: 3,
+    id: 2,
     projectBox: {
       name: "Ferrocore Construction",
       slug: "ferrocore-construction",
@@ -791,7 +791,7 @@ export const ProjectsContent = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     projectBox: {
       name: "VossWalker Estates",
       slug: "vosswalker-estates",
