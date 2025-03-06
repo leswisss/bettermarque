@@ -1,0 +1,56 @@
+.shimmerPlaceholder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(
+    to right,
+    #eeeeee 10%,
+    #dddddd 30%,
+    #eeeeee 50%
+  );
+  background-size: cover;
+  animation: placeholderShimmer 1s linear infinite;
+}
+
+@keyframes placeholderShimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  @keyframes placeholderShimmer {
+    0% {
+      background-position: -600px 0;
+    }
+    100% {
+      background-position: 600px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  @keyframes placeholderShimmer {
+    0% {
+      background-position: -500px 0;
+    }
+    100% {
+      background-position: 500px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  @keyframes placeholderShimmer {
+    0% {
+      background-position: -200px 0;
+    }
+    100% {
+      background-position: 200px 0;
+    }
+  }
+}

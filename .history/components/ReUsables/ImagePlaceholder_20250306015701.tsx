@@ -1,0 +1,16 @@
+import React from 'react'
+import { getPlaiceholder } from 'plaiceholder'
+import { StaticImageData } from 'next/dist/shared/lib/get-img-props'
+import Image from 'next/image'
+import fs from "node:fs/promises"
+
+const async ImagePlaceholder = ({src, alt}: {src: StaticImage, alt: string}) => {
+  const buffer = await fs.readFile(src.src)
+  return (
+    <>
+      <Image fill quality={100} alt={alt} src={src} placeholder="blur"/>
+    </>
+  )
+}
+
+export default ImagePlaceholder

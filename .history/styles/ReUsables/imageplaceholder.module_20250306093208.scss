@@ -1,0 +1,53 @@
+.shimmerPlaceholder {
+  width: 100%;
+  animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: #ddd;
+    background: linear-gradient(to right, #F6F6F6 8%, #F0F0F0 18%, #F6F6F6 33%);
+    background-size: 1200px 100%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+// @media screen and (max-width: 1200px) {
+//   @keyframes placeholderShimmer {
+//     0% {
+//       background-position: -600px 0;
+//     }
+//     100% {
+//       background-position: 600px 0;
+//     }
+//   }
+// }
+
+// @media screen and (max-width: 1024px) {
+//   @keyframes placeholderShimmer {
+//     0% {
+//       background-position: -500px 0;
+//     }
+//     100% {
+//       background-position: 500px 0;
+//     }
+//   }
+// }
+
+// @media screen and (max-width: 520px) {
+//   @keyframes placeholderShimmer {
+//     0% {
+//       background-position: -20% 0;
+//     }
+//     100% {
+//       background-position: 20% 0;
+//     }
+//   }
+// }

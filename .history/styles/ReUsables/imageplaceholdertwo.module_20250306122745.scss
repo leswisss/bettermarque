@@ -1,0 +1,126 @@
+.shimmerPlaceholder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.7s ease;
+  animation-fill-mode: forwards;
+  background: linear-gradient(to right, #F6F6F6 8%, #F0F0F0 18%, #F6F6F6 33%);
+  background-size: cover;
+  animation: placeholderShimmer 1s linear infinite;
+}
+
+@keyframes placeholderShimmer {
+  0% {
+    background-position: -350px 0;
+  }
+  100% {
+    background-position: 350px 0;
+  }
+}
+
+
+@media screen and (max-width: 1450px) {
+  @keyframes placeholderShimmer {
+    0% {
+      background-position: -300px 0;
+    }
+    100% {
+      background-position: 300px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  @keyframes placeholderShimmer {
+    0% {
+      background-position: -250px 0;
+    }
+    100% {
+      background-position: 250px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  @keyframes placeholderShimmer {
+    0% {
+      background-position: -200px 0;
+    }
+    100% {
+      background-position: 200px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .shimmerPlaceholder {
+    background: linear-gradient(to right, #F6F6F6 10%, #F0F0F0 22%, #F6F6F6 40%);
+  }
+
+  @keyframes placeholderShimmer {
+    0% {
+      background-position: -300px 0;
+    }
+    100% {
+      background-position: 300px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 770px) {
+  @keyframes placeholderShimmer {
+    0% {
+      background-position: -250px 0;
+    }
+    100% {
+      background-position: 250px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 630px) {
+  @keyframes placeholderShimmer {
+    0% {
+      background-position: -270px 0;
+    }
+    100% {
+      background-position: 270px 0;
+    }
+  }
+}
+
+
+@media screen and (max-width: 530px) {
+  @keyframes placeholderShimmer {
+    0% {
+      background-position: -220px 0;
+    }
+    100% {
+      background-position: 220px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  @keyframes placeholderShimmer {
+    0% {
+      background-position: -200px 0;
+    }
+    100% {
+      background-position: 200px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  @keyframes placeholderShimmer {
+    0% {
+      background-position: -170px 0;
+    }
+    100% {
+      background-position: 200px 0;
+    }
+  }
+}
