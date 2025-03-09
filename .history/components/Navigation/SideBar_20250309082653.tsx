@@ -130,7 +130,7 @@ const SideBar = ({ activeSide, setActiveSide }: sideBarProps) => {
             className={styles.side__footer}
           >
             <div className={styles.sf__top}>
-              {FooterLink2.links.map((data, i) => (
+              {Foo.map((data, i) => (
                 <p className={styles.fword__wrapper} key={i}>
                   <Link
                     href={data.link}

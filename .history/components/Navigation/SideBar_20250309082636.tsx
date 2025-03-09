@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import { FooterLink1, FooterLink2 } from "@/utils";
+import { FooterLink1 } from "@/utils";
 import {
   sideBarAnim,
   sideBarLinkAnim,
@@ -130,7 +130,7 @@ const SideBar = ({ activeSide, setActiveSide }: sideBarProps) => {
             className={styles.side__footer}
           >
             <div className={styles.sf__top}>
-              {FooterLink2.links.map((data, i) => (
+              {socialLinks.map((data, i) => (
                 <p className={styles.fword__wrapper} key={i}>
                   <Link
                     href={data.link}
