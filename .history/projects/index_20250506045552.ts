@@ -188,7 +188,7 @@ export const ProjectsContent = [
     },
     detailsHeroContent: {
       projectinfo: {
-        name: "ILID 2025",
+        name: "ILID",
         image: PROJECT5,
         aspectratio: "200/71.9414",
       },
