@@ -193,7 +193,7 @@ export const ProjectsContent = [
         aspectratio: "200/71.9414",
       },
       herotext:
-        "Bridging academia and real-world impact, ILID aims to cultivate student-led, sustainable infrastructure projects that strengthen Cameroon’s communities through creativity and collaboration",
+        "Bridging academia and real-world impact, ILID aims to cultivates student-led, sustainable infrastructure projects that strengthen Cameroon’s communities through creativity and collaboration",
       linkbutton: {
         text: "Read case study",
         color: "black",
