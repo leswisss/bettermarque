@@ -14,7 +14,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const project = ProjectsContent.find(project => project.projectBox.slug === slugg);
   const title = project ? project.projectBox.name : "404"
   const description = project && project.detailsHeroContent.herotext
-  const image = project ? project.projectBox.coverImage.image.src: ""
+  const image = project ? project.projectBox.opengraph.src: ""
+  console.log(image)
 
 
   return {

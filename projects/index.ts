@@ -3,7 +3,7 @@ import PROJECT2 from "../public/svg/ferrocore.svg"
 import PROJECT3 from "../public/svg/vosswalker.svg"
 import PROJECT4 from "../public/svg/dkad.svg"
 import PROJECT5 from "../public/svg/ilid.svg"
-
+import PROJECT6 from "../public/svg/wbc.svg"
 
 import PROJECT101 from "../public/images/brinovo/brinovo.jpg"
 import PROJECT102 from "../public/images/brinovo/brinovo2.jpg"
@@ -31,6 +31,7 @@ import PROJECT123 from "../public/images/brinovo/brinovo23.jpg"
 import PROJECT124 from "../public/images/brinovo/brinovo24.jpg"
 import PROJECT125 from "../public/images/brinovo/brinovo25.jpg"
 import PROJECT126 from "../public/images/brinovo/brinovo26.jpg"
+import PROJECT1OG from "../public/images/brinovo/opengraph.jpg"
 
 
 
@@ -64,6 +65,7 @@ import PROJECT227 from "../public/images/ferrocore/ferrocore27.jpg"
 import PROJECT228 from "../public/images/ferrocore/ferrocore28.jpg"
 import PROJECT229 from "../public/images/ferrocore/ferrocore29.jpg"
 import PROJECT230 from "../public/images/ferrocore/ferrocore30.jpg"
+import PROJECT2OG from "../public/images/ferrocore/opengraph.jpg"
 
 
 
@@ -94,6 +96,7 @@ import PROJECT324 from "../public/images/vosswalker/vosswalker24.jpg"
 import PROJECT325 from "../public/images/vosswalker/vosswalker25.jpg"
 import PROJECT326 from "../public/images/vosswalker/vosswalker26.jpg"
 import PROJECT327 from "../public/images/vosswalker/vosswalker27.jpg"
+import PROJECT3OG from "../public/images/vosswalker/opengraph.jpg"
 
 
 
@@ -122,6 +125,7 @@ import PROJECT422 from "../public/images/dkad/dkad22.jpg"
 import PROJECT423 from "../public/images/dkad/dkad23.jpg"
 import PROJECT424 from "../public/images/dkad/dkad24.jpg"
 import PROJECT425 from "../public/images/dkad/dkad25.jpg"
+import PROJECT4OG from "../public/images/dkad/opengraph.jpg"
 import WEB401 from "../public/images/dkad/web.jpg"
 import WEB402 from "../public/images/dkad/web2.jpg"
 import WEB403 from "../public/images/dkad/web3.jpg"
@@ -159,6 +163,7 @@ import PROJECT522 from "../public/images/ilid/ilid22.jpg"
 import PROJECT523 from "../public/images/ilid/ilid23.jpg"
 import PROJECT524 from "../public/images/ilid/ilid24.jpg"
 import PROJECT525 from "../public/images/ilid/ilid25.jpg"
+import PROJECT5OG from "../public/images/ilid/opengraph.jpg"
 import WEB501 from "../public/images/ilid/web1.jpg"
 import WEB502 from "../public/images/ilid/web2.jpg"
 import WEB503 from "../public/images/ilid/web3.jpg"
@@ -171,8 +176,265 @@ import WEB509 from "../public/images/ilid/web9.jpg"
 import WEB510 from "../public/images/ilid/web10.jpg"
 
 
+import PROJECT601 from "../public/images/wbc/wbc1.jpg"
+import PROJECT602 from "../public/images/wbc/wbc2.jpg"
+import PROJECT603 from "../public/images/wbc/wbc3.jpg"
+import PROJECT604 from "../public/images/wbc/wbc4.jpg"
+import PROJECT605 from "../public/images/wbc/wbc5.jpg"
+import PROJECT606 from "../public/images/wbc/wbc6.jpg"
+import PROJECT607 from "../public/images/wbc/wbc7.jpg"
+import PROJECT608 from "../public/images/wbc/wbc8.jpg"
+import PROJECT609 from "../public/images/wbc/wbc9.jpg"
+import PROJECT610 from "../public/images/wbc/wbc10.jpg"
+import PROJECT611 from "../public/images/wbc/wbc11.jpg"
+import PROJECT612 from "../public/images/wbc/wbc12.jpg"
+import PROJECT613 from "../public/images/wbc/wbc13.jpg"
+import PROJECT614 from "../public/images/wbc/wbc14.jpg"
+import PROJECT615 from "../public/images/wbc/wbc15.jpg"
+import PROJECT616 from "../public/images/wbc/wbc16.jpg"
+import PROJECT617 from "../public/images/wbc/wbc17.jpg"
+import PROJECT618 from "../public/images/wbc/wbc18.jpg"
+import PROJECT619 from "../public/images/wbc/wbc19.jpg"
+import PROJECT620 from "../public/images/wbc/wbc20.jpg"
+import PROJECT621 from "../public/images/wbc/wbc21.jpg"
+import PROJECT622 from "../public/images/wbc/wbc22.jpg"
+import PROJECT623 from "../public/images/wbc/wbc23.jpg"
+import PROJECT624 from "../public/images/wbc/wbc24.jpg"
+import PROJECT625 from "../public/images/wbc/wbc25.jpg"
+import PROJECT626 from "../public/images/wbc/wbc26.jpg"
+import PROJECT627 from "../public/images/wbc/wbc27.jpg"
+import PROJECT628 from "../public/images/wbc/wbc28.jpg"
+import PROJECT629 from "../public/images/wbc/wbc29.jpg"
+import PROJECT630 from "../public/images/wbc/wbc30.jpg"
+import PROJECT631 from "../public/images/wbc/wbc31.jpg"
+import PROJECT632 from "../public/images/wbc/wbc32.jpg"
+import PROJECT6OG from "../public/images/wbc/opengraph.jpg"
+
 
 export const ProjectsContent = [
+  {
+    id: 6,
+    projectBox: {
+      name: "World Building & Consulting",
+      slug: "wbuildingc",
+      year: 2025,
+      slogan: "Oser Construire Autrement",
+      services: "Brand Strategy - Visual Identity",
+      coverImage: {
+        image: PROJECT611,
+        alt: "Project WBC",
+      },
+      opengraph: PROJECT6OG
+    },
+    detailsHeroContent: {
+      projectinfo: {
+        name: "World Building & Consulting",
+        image: PROJECT6,
+        aspectratio: "600/234.3353",
+      },
+      herotext:
+        "From hands-on workshops to construction techniques, WBC focuses on creating environmentally-friendly infrastructure that serves communities while giving students solid career preparation.",
+      linkbutton: {
+        text: "Read case study",
+        color: "black",
+      },
+    },
+    videoLink: "/videos/wbc.mp4",
+    fallbackImage: PROJECT611,
+    projectBrief: {
+      mainText:
+        "World Building & Consulting delivers technical studies, quality control, construction execution, project management, and professional training for sustainable, resilient infrastructure.",
+      briefText:
+        "They thoroughly analyze each project, maintain strict quality standards, plan resources carefully, and provide hands-on construction oversight while training people in AutoCAD and Revit, ensuring projects are well-planned, properly built, and beneficial to communities long-term.",
+      projectSpecs: [
+        {
+          heading: "Type",
+          text: "Branding",
+        },
+        {
+          heading: "Category",
+          text: "Construction",
+        },
+        {
+          heading: "Services",
+          text: "Brand Strategy, Visual Identity",
+        }
+      ]
+    },
+    firstOtherDetail: {
+      headerButton: "Our Solution",
+      detailData: {
+        mainText:
+          "We designed a brandmark merging concentric rings representing the world, and three shapes pointing upward that stand for strong buildings and WBC's three main focuses: technical education, quality control, and hands-on training.",
+        secondaryText:
+          "We chose deep navy, bright blue, and teal paired with white, using Aventa Variable Regular, Medium and Semibold typefaces. This design appears on all materials from business cards, merchandise, signage, and presentation templates, creating a consistent, professional image.",
+      },
+    },
+    preImages: [
+      {
+        image: PROJECT601,
+        aspectRatio: "2880/1800",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT602,
+        aspectRatio: "4000/3000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT603,
+        aspectRatio: "4500/3000",
+        alt: "Project WBC",
+      },
+    ],
+    preImages2: [
+      {
+        image: PROJECT604,
+        aspectRatio: "3240/1620",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT605,
+        aspectRatio: "2880/1800",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT606,
+        aspectRatio: "3000/1800",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT607,
+        aspectRatio: "6000/4000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT608,
+        aspectRatio: "6000/4000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT609,
+        aspectRatio: "8277/5518",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT610,
+        aspectRatio: "2880/1800",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT611,
+        aspectRatio: "6000/4000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT612,
+        aspectRatio: "4000/3000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT613,
+        aspectRatio: "4000/2667",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT614,
+        aspectRatio: "4000/3000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT615,
+        aspectRatio: "4500/3000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT616,
+        aspectRatio: "5000/3500",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT617,
+        aspectRatio: "4500/3000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT618,
+        aspectRatio: "4000/3000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT619,
+        aspectRatio: "4000/3000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT620,
+        aspectRatio: "4000/3000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT621,
+        aspectRatio: "4500/3000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT622,
+        aspectRatio: "3000/2250",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT623,
+        aspectRatio: "4000/3000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT624,
+        aspectRatio: "4000/3000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT625,
+        aspectRatio: "4000/2667",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT626,
+        aspectRatio: "2880/1800",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT627,
+        aspectRatio: "3000/2000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT628,
+        aspectRatio: "3000/2000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT629,
+        aspectRatio: "4000/3000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT630,
+        aspectRatio: "4000/2670",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT631,
+        aspectRatio: "4500/3000",
+        alt: "Project WBC",
+      },
+      {
+        image: PROJECT632,
+        aspectRatio: "4000/3000",
+        alt: "Project WBC",
+      },
+    ]
+  },
   {
     id: 5,
     projectBox: {
@@ -185,6 +447,7 @@ export const ProjectsContent = [
         image: PROJECT514,
         alt: "Project ILID2025",
       },
+      opengraph: PROJECT5OG
     },
     detailsHeroContent: {
       projectinfo: {
@@ -457,6 +720,7 @@ export const ProjectsContent = [
         image: PROJECT108,
         alt: "Project Brinovo Urbano",
       },
+      opengraph: PROJECT1OG
     },
 
     detailsHeroContent: {
@@ -646,6 +910,7 @@ export const ProjectsContent = [
         image: PROJECT401,
         alt: "Project DK Architecture & Design",
       },
+      opengraph: PROJECT4OG
     },
 
     detailsHeroContent: {
@@ -906,6 +1171,7 @@ export const ProjectsContent = [
         image: PROJECT219,
         alt: "Project Ferrocore Construction",
       },
+      opengraph: PROJECT2OG
     },
 
     detailsHeroContent: {
@@ -1128,6 +1394,7 @@ export const ProjectsContent = [
         image: PROJECT301,
         alt: "Project Voss Walker Estates",
       },
+      opengraph: PROJECT3OG
     },
 
     detailsHeroContent: {
