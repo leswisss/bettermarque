@@ -106,7 +106,7 @@ export const AccordionData = [
   {
     id: 5,
     number: "05",
-    title: "Design a brand that reflects your Unique identity",
+    title: "Design a brand that reflects uour Unique identity",
     content: "By combining your vision with a deep understanding of your industry, we craft brands that don’t just look good but feel authentic and purposeful. With every design, we aim to create a lasting impact—one that drives measurable results, attracts like-minded collaborators, and positions your brand as a leader in its field.",
   },
 ];
