@@ -265,9 +265,9 @@ export const ProjectsContent = [
       headerButton: "Our Solution",
       detailData: {
         mainText:
-          "The previous logo had two main problems. First, the gradient looked nice on screen but didn't work well in real world. Second, the text part looked too plain and didn't match the strength of the symbol.",
+          "The logo had two main problems. First, the gradient looked nice on screen but didn't work well in real world. Second, the text part looked too plain and didn't match the strength of the symbol. We didn't want to completely redesign everything since the logo's meaning was solid. So the challenge became: how do we fix these practical issues while keeping the core concept that already worked?",
         secondaryText:
-          "We didn't want to completely redesign everything since the logo's meaning was solid. So the challenge became: how do we fix these practical issues while keeping the core concept that already worked? We designed a brandmark merging concentric rings representing the world, and three shapes pointing upward that stand for strong buildings and WBC's three main focuses: technical education, quality control, and hands-on training. Deep navy, bright blue, and teal paired with white were the colors choosen, using Aventa Variable Regular, Medium and Semibold typefaces. This design appears on all materials from business cards, merchandise, signage, and presentation templates, creating a consistent, professional image.",
+          "We designed a brandmark merging concentric rings representing the world, and three shapes pointing upward that stand for strong buildings and WBC's three main focuses: technical education, quality control, and hands-on training. Deep navy, bright blue, and teal paired with white were the colors choosen, using Aventa Variable Regular, Medium and Semibold typefaces. This design appears on all materials from business cards, merchandise, signage, and presentation templates, creating a consistent, professional image.",
       },
     },
     preImages: [
