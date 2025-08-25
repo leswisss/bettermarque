@@ -266,7 +266,7 @@ export const ProjectsContent = [
         aspectratio: "400/104",
       },
       herotext:
-        "Research-led, Innovation-focused and Sustainability-driven, Pivot Engineering develops locally adapted construction methods and materials, delivering efficient, low-carbon infrastructure.",
+        "Research-led, Innovation-focused and Sustainability-driven, Pivot Engineering develops locally adapted construction methods and materials, delivering efficient, low-carbon infrastructure and training that strengthens communities.",
       linkbutton: {
         text: "Read case study",
         color: "black",
