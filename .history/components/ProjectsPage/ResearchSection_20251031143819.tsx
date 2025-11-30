@@ -1,0 +1,16 @@
+import React from "react";
+import ProjectBox from "../ReUsables/ProjectBox";
+import { Resea } from "@/projects";
+import styles from "../../styles/ReUsables/projectsection.module.scss";
+
+const ResearchSection = () => {
+  return (
+    <div className={styles.projects__wrapper}>
+      {ProjectsContent.map((data, i) => (
+        <ProjectBox key={i} content={data.projectBox} />
+      ))}
+    </div>
+  );
+};
+
+export default ResearchSection;

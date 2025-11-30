@@ -1,0 +1,1 @@
+import PROJECT1 from "../public/svg/testproject.svg";
